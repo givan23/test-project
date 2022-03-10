@@ -13,7 +13,6 @@ import {LEARN, LINK} from "./App.defines";
 
 
 function App() {
-    console.log("PROVA");
     const [test, setTest] = useState(LEARN);
 
     const chooseTest = (e: any): void => {
